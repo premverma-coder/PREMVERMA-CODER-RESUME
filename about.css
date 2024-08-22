@@ -1,0 +1,36 @@
+/* Styling untuk kotak berwarna putih */
+.white-box {
+  background-color: white;
+  width: 300px;
+  /* Lebar kotak */
+  padding: 20px;
+  /* Padding dalam kotak */
+  margin: 50px auto;
+  /* Jarak antara kotak dengan tepi halaman */
+  border: 1px solid rgba(74, 127, 172, 1);
+  /* Garis tepi kotak */
+  text-align: center;
+  /* Posisi teks di tengah */
+}
+
+/* Styling untuk teks kredit di bagian bawah */
+footer {
+  position: fixed;
+  /* Memposisikan footer tetap di bawah */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  /* Warna latar belakang footer */
+  color: white;
+  /* Warna teks */
+  text-align: center;
+  /* Posisi teks di tengah */
+  padding: 1px 0;
+  /* Padding atas dan bawah teks */
+}
+
+.credit {
+  font-size: 14px;
+  /* Ukuran font teks kredit */
+}
